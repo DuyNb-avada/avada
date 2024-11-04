@@ -1,0 +1,16 @@
+.vscode
+**/node_modules/**
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Firebase
+.runtimeconfig.json
+serviceAccount.json
+serviceAccount.*.json
+/packages/functions/serviceAccount-staging.json
+/packages/functions/serviceAccount-production.json
+/packages/functions/serviceAccount-bigquery-staging.json
+./packages/assets/grapesjs-dev/
+/packages/assets/env.prod
+/packages/assets/env.staging
